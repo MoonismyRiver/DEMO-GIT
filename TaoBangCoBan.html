@@ -1,11 +1,33 @@
 <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tạo bảng cơ bản</title>
+
+</head>
+<body>
+<!DOCTYPE html>
 <html>
 <head>
     <title> Table simple </title>
 </head>
 <body>
-<table>
-
+<table >
+    <style>
+        td, th {
+            border: 1px solid #dddddd;
+            text-align: left;
+            padding: 8px;
+        }
+        tr:nth-child(even) {
+            background-color: #dddddd;
+        }
+        table {
+            font-family: arial, sans-serif;
+            border-collapse: collapse;
+            width: 100%;
+        }
+    </style>
     <tr>
         <th>Company</th>
         <th>Contact</th>
@@ -41,15 +63,8 @@
         <td>Giovanni Rovelli</td>
         <td>Italy</td>
     </tr>
-    <style>
-        td, th {
-        border: 1px solid #dddddd;
-        text-align: left;
-        padding: 8px;
-
-
-    }</style>
-
 </table>
+</body>
+</html>
 </body>
 </html>
